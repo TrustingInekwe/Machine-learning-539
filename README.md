@@ -11,7 +11,7 @@
 <p>
 We will clean and explore our dataset to remove missing, redundant and inconsistent data as this may increase noise which may affect prediction accuracy of our tool.  
 </p>
-<h4> Step 4: Data Pre-processing: </>
+<h4> Step 3: Data Pre-processing: </h4>
 <p>
 After cleaning and exploring data, we will select features, and then regularize and standardize the data before applying Machin learning models. Our unique filter combining ANOVA and cost efficiency will be applied for this data preprocessing process. 
 </p>
