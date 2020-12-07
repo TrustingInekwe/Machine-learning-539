@@ -33,6 +33,26 @@
 <h4>Step 4: Modelling using Machine Learning Algorithms</h4>
 <p align="justify">Since our target is binary, we used algorithms that will classify binary outcomes, that is, if a patient has cardiovascular disease or not. We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
 
+<table style="width:100%">
+  <caption>Models implemented</caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Optimizer</th>
+  </tr>
+  <tr>
+    <td>Logistic Regression</td>
+    <td>Decision Tree</td>
+    <td>K Nearest Neighbour</td>
+    <td>Support Vector Classifier</td>
+    <td>XGBoost</td>
+    <td>Naive Bayes</td>
+  </tr>
+  <tr>
+    <td>AdaBoost</td>
+    <td></td>
+  </tr>
+</table>
+
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
 
 <h4>Step 5: Hybrid Algorithm</h4>
