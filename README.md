@@ -17,19 +17,17 @@
 <p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
   
 <h5>iii. Removing outliers</h5>
-<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set as outliers values that were less than or equal to 80 or greater than 200 of which we had over 307 cases.
-  
+<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set as outliers values that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>  
 ![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
 
-For Diastolic Blood Pressure feature, we set as outliers values that were less than 50 or greater than 1032 of had over 1032 cases.
+<p align="justify">For Diastolic Blood Pressure feature, we set as outliers values that were less than 50 or greater than 1032 of had over 1032 cases.</p>
 ![Diastollic](https://user-images.githubusercontent.com/55979883/101304808-2288fd00-380f-11eb-9448-649991590ff4.png)
 
-For weight feature, we set as outliers values that were less than or equal to 30 of had over 7 cases.
+<p align="justify">For weight feature, we set as outliers values that were less than or equal to 30 of had over 7 cases.</p>
 ![Weight](https://user-images.githubusercontent.com/55979883/101305205-22d5c800-3810-11eb-88b0-46836c651faa.png)
 
-For height feature, we set as outliers values that were less than or equal to 100 of had over 29 cases.
+<p align="justify">For height feature, we set as outliers values that were less than or equal to 100 of had over 29 cases.</p>
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
-</p>
 
 
 <h4>Step 4: Modelling using Machine Learning Algorithms</h4>
