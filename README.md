@@ -41,15 +41,28 @@
   </tr>
   <tr>
     <td>Logistic Regression</td>
-    <td>Decision Tree</td>
-    <td>K Nearest Neighbour</td>
-    <td>Support Vector Classifier</td>
-    <td>XGBoost</td>
-    <td>Naive Bayes</td>
   </tr>
   <tr>
+    <td>Neural Networks</td>
     <td>AdaBoost</td>
-    <td></td>
+  </tr>
+  <tr>
+    <td>Decision Tree</td>
+  </tr>
+  <tr>
+    <td>K Nearest Neighbour</td>
+  </tr>
+  <tr>
+    <td>K Nearest Neighbour</td>
+  </tr>
+  <tr>
+    <td>Support Vector Classifier</td>
+  </tr>
+   <tr>
+    <td>XGBoost</td>
+  </tr>
+   <tr>
+    <td>Naive Bayes</td>
   </tr>
 </table>
 
