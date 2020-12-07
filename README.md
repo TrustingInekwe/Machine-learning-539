@@ -57,9 +57,6 @@
     <td>Support Vector Classifier</td>
   </tr>
   <tr>
-    <td>Neural Networks</td>
-  </tr>
-  <tr>
     <td>Naive Bayes</td>
   </tr>
   <tr>
@@ -73,6 +70,9 @@
   </tr>
    <tr>
     <td>XGBoost Classifier</td>
+  </tr>
+  <tr>
+    <td>Neural Networks</td>
   </tr>
    
 </table>
