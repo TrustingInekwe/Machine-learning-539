@@ -43,6 +43,8 @@
     <td>Extra Tree Classifier</td>
     <td>Support Vector Classifier</td>
     <td>Naive Bayes</td>
+  </tr>
+  <tr>
     <td>Multinomial Naive Bayes</td>
     <td>Bagging Classifier</td>
     <td>AdaBoost Classifier</td>
