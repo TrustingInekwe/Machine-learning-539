@@ -39,29 +39,42 @@
     <th>Model Name</th>
   </tr>
   <tr>
+    <td>K Nearest Neighbour</td>
+  </tr>
+  <tr>
     <td>Logistic Regression</td>
+  </tr>
+   <tr>
+    <td>Decision Tree Classifier</td>
+  </tr>
+   <tr>
+    <td>Random Forest Classifier</td>
+  </tr>
+   <tr>
+    <td>Extra Tree Classifier</td>
+  </tr>
+  <tr>
+    <td>Support Vector Classifier</td>
   </tr>
   <tr>
     <td>Neural Networks</td>
   </tr>
   <tr>
-    <td>Decision Tree</td>
-  </tr>
-  <tr>
-    <td>K Nearest Neighbour</td>
-  </tr>
-  <tr>
-    <td>K Nearest Neighbour</td>
-  </tr>
-  <tr>
-    <td>Support Vector Classifier</td>
-  </tr>
-   <tr>
-    <td>XGBoost</td>
-  </tr>
-   <tr>
     <td>Naive Bayes</td>
   </tr>
+  <tr>
+    <td>Multinomial Naive Bayes</td>
+  </tr>
+  <tr>
+    <td>Bagging Classifier</td>
+  </tr>
+  <tr>
+    <td>AdaBoost Classifier</td>
+  </tr>
+   <tr>
+    <td>XGBoost Classifier</td>
+  </tr>
+   
 </table>
 
 ![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
