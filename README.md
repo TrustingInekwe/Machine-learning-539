@@ -82,8 +82,8 @@
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
 
 <h4>Step 5: Hybrid Algorithm</h4>
-<p align="justify">Finally, we combined our different algorithms to make a hybrid model by combining (averaging) algorithms that gave us better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data.</p>
+<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
 
 
-<h3>References</h3>
+<h3>Online Source</h3>
 <p> 1. https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings </p>
