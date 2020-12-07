@@ -37,14 +37,12 @@
   <caption>Models implemented</caption>
   <tr>
     <th>Model Name</th>
-    <th>Optimizer</th>
   </tr>
   <tr>
     <td>Logistic Regression</td>
   </tr>
   <tr>
     <td>Neural Networks</td>
-    <td>AdaBoost</td>
   </tr>
   <tr>
     <td>Decision Tree</td>
@@ -65,6 +63,8 @@
     <td>Naive Bayes</td>
   </tr>
 </table>
+
+![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
 
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
 
