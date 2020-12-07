@@ -36,9 +36,6 @@
 <table style="width:100%">
   <caption>Models implemented</caption>
   <tr>
-    <th>Model Name</th>
-  </tr>
-  <tr>
     <td>K Nearest Neighbour</td>
     <td>Logistic Regression</td>
     <td>Decision Tree Classifier</td>
