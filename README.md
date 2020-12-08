@@ -8,12 +8,58 @@
 <h3>Our Approach</h3>
 <h4>Step 1: Data Extraction:</h4>
 <p align="justify">Our dataset is from the Kaggle https://www.kaggle.com/sulianova/cardiovascular-disease-dataset (Ulianova, n.d.). it has 70,000 records of patients’ data with 11 features –both numerical and categorical.</p>
-<h4> Step 2: Data Cleaning and Exploration:</h4> 
-<p align="justify">We cleaned and explored our dataset to remove missing, redundant and inconsistent data as this may increase noise which can affect prediction accuracy of our tool</p>
-<h4> Step 3: Data Pre-processing: </h4>
-<p align="justify">After cleaning and exploring data, we selected features, and then regularize and standardize the data before applying Machin learning models. Our unique filter combining ANOVA and cost efficiency will be applied for this data preprocessing process.</p>
+
+<h4> Step 2: Data Pre-processing: </h4>
+<p align="justify"> Our data processing involved three steps namely:</p>
+<h5>i. Checking for missing or NaN values</h5>
+<p align="justify">As a first step in our data processing we checked for Nan values of which we didn't find any. We had a dataset that was complete and numeric</p>
+<h5>ii. Checking if our dataset is balanced</h5>
+<p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
+  
+<h5>iii. Removing outliers</h5>
+<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set as outliers values that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>  
+![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
+
+<p align="justify">For Diastolic Blood Pressure feature, we set as outliers values that were less than 50 or greater than 1032 of had over 1032 cases.</p>
+![Diastollic](https://user-images.githubusercontent.com/55979883/101304808-2288fd00-380f-11eb-9448-649991590ff4.png)
+
+<p align="justify">For weight feature, we set as outliers values that were less than or equal to 30 of had over 7 cases.</p>
+![Weight](https://user-images.githubusercontent.com/55979883/101305205-22d5c800-3810-11eb-88b0-46836c651faa.png)
+
+<p align="justify">For height feature, we set as outliers values that were less than or equal to 100 of had over 29 cases.</p>
+![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
+
+
 <h4>Step 4: Modelling using Machine Learning Algorithms</h4>
 <p align="justify">Since our target is binary, we used algorithms that will classify binary outcomes, that is, if a patient has cardiovascular disease or not. We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
-<h4>Step 5: Hybrid Algorithm</h4>
-<p align="justify">Finally, we combined our different algorithms to make a hybrid model by combining (averaging) algorithms that gave us better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data.</p>
+
+<table style="width:100%">
+  <caption>Models implemented</caption>
+  <tr>
+    <td>K Nearest Neighbour</td>
+    <td>Logistic Regression</td>
+    <td>Decision Tree Classifier</td>
+    <td>Random Forest Classifier</td>
+    <td>Extra Tree Classifier</td>
+    <td>Support Vector Classifier</td>
+    <td>Naive Bayes</td>
+  </tr>
+  <tr>
+    <td>Multinomial Naive Bayes</td>
+    <td>Bagging Classifier</td>
+    <td>AdaBoost Classifier</td>
+    <td>XGBoost Classifier</td>
+    <td>Neural Networks</td>  
+  </tr>
+</table>
+
+![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
+
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
+
+<h4>Step 5: Hybrid Algorithm</h4>
+<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
+
+
+<h3>Online Source</h3>
+<p> 1. https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings </p>
