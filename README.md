@@ -11,14 +11,6 @@
 <h4>Step 1: Data Extraction:</h4>
 <p align="justify">Our dataset is from the Kaggle https://www.kaggle.com/sulianova/cardiovascular-disease-dataset (Ulianova, n.d.). it has 70,000 records of patients’ data with 11 features –both numerical and categorical.</p>
 
-![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
-
-![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
-
-![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
-
-
-
 <h4> Step 2: Data Pre-processing: </h4>
 <p align="justify"> Our data processing involved three steps namely:</p>
 
@@ -29,16 +21,15 @@
 <p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
   
 <h5>iii. Removing outliers</h5>
-<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>  
+<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>
 
-
-
+![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
 
 <p align="justify">For Diastolic Blood Pressure feature, we set our outliers values to those that were less than 50 or greater than 1032 of had over 1032 cases.</p>
 
 ![Diastollic](https://user-images.githubusercontent.com/55979883/101304808-2288fd00-380f-11eb-9448-649991590ff4.png)
 
-<p align="justify">For weight feature, we set our outliers values to those that were less than or equal to 30 of had over 7 cases.</p>
+<p align="justify">For weight feature, we set our outliers values to those that were less than or equal to 30 of had over 7 cases</p>
 
 ![Weight](https://user-images.githubusercontent.com/55979883/101305205-22d5c800-3810-11eb-88b0-46836c651faa.png)
 
@@ -49,6 +40,9 @@
 
 <h4>Step 4: Modelling using Machine Learning Algorithms</h4>
 <p align="justify">We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
+
+<h4>Step 5: Hybrid Algorithm</h4>
+<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
 
 <table style="width:100%">
   <caption>Model Algorithms implemented</caption>
@@ -72,15 +66,11 @@
 
 <p align="justify">The figure below is a list of models we used and their accuracy values</p>
 
-
+![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
 
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
-
-
-<h4>Step 5: Hybrid Algorithm</h4>
-<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
-
+![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
 
 <h3>Online Source</h3>
 <p> 1. https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings </p>
