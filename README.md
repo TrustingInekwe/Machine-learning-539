@@ -5,6 +5,8 @@
 
 ![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
 
+![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
+
 <p align="justify">Cardiovascular disease is the leading cause of death among people in the US. According to the National Vital Statistics, about 854,390 people died due to Cardiovascular Disease in 2019 only (CDC, 2019). Despite this high mortality rate, health care service in the US is expensive and so providing a means in which people could detect (easily and possibly early) if they have a Cardiovascular disease or not would help in early treatment, lesser medical expenses and would increase chances of survival. Our proposed Cardiovascular Disease Onset Prediction tool would be used by medical personnel to detect Cardiovascular disease easily and faster. The current system only allows qualified personnel to collate patients’ clinical information and make decision – which usually take a longer time – on whether a patient has been diagnosed with Cardiovascular disease or not.</p>
 <p align="justify"><p align="justify">We design a Cardiovascular Disease onset prediction​ tool that will help in predicting onset of Cardiovascular disease given a patients’ clinical information. 
 
@@ -62,13 +64,14 @@
     <td>Neural Networks</td>  
   </tr>
 </table>
+
 <p align="justify">The figure below is a list of models we used and their accuracy values</p>
 
 
 
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
-![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
+
 
 <h4>Step 5: Hybrid Algorithm</h4>
 <p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
