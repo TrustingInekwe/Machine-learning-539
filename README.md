@@ -24,12 +24,15 @@
 ![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
 
 <p align="justify">For Diastolic Blood Pressure feature, we set our outliers values to those that were less than 50 or greater than 1032 of had over 1032 cases.</p>
+
 ![Diastollic](https://user-images.githubusercontent.com/55979883/101304808-2288fd00-380f-11eb-9448-649991590ff4.png)
 
 <p align="justify">For weight feature, we set our outliers values to those that were less than or equal to 30 of had over 7 cases.</p>
+
 ![Weight](https://user-images.githubusercontent.com/55979883/101305205-22d5c800-3810-11eb-88b0-46836c651faa.png)
 
 <p align="justify">For height feature, we set our outliers values to those that were less than or equal to 100 of had over 29 cases.</p>
+
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
 
 
