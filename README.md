@@ -21,6 +21,7 @@
   
 <h5>iii. Removing outliers</h5>
 <p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>  
+
 ![systolic](https://user-images.githubusercontent.com/55979883/101304835-30d71900-380f-11eb-88e5-f2b16052c61c.png)
 
 <p align="justify">For Diastolic Blood Pressure feature, we set our outliers values to those that were less than 50 or greater than 1032 of had over 1032 cases.</p>
@@ -59,8 +60,11 @@
   </tr>
 </table>
 <p align="justify">The figure below is a list of models we used and their accuracy values</p>
+
 ![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
+
 <p align="justify">The figure below is the AUC ROC for models we used</p>
+
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
 
 <h4>Step 5: Hybrid Algorithm</h4>
