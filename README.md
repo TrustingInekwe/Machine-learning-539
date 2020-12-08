@@ -61,11 +61,11 @@
 </table>
 <p align="justify">The figure below is a list of models we used and their accuracy values</p>
 
-![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
+![Model Performance2](https://user-images.githubusercontent.com/55979883/101526117-3e4cea00-395a-11eb-89da-fce193b732d7.png)
 
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
-![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
+![Prediction Result](https://user-images.githubusercontent.com/55979883/101526212-56bd0480-395a-11eb-8afc-604d1e9840cd.png)
 
 <h4>Step 5: Hybrid Algorithm</h4>
 <p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
