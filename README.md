@@ -55,9 +55,9 @@
     <td>Neural Networks</td>  
   </tr>
 </table>
-<p align="justify"> below is a list of models we used and their accuracy values</p>
+<p align="justify">The figutre below is a list of models we used and their accuracy values</p>
 ![Model Performance2](https://user-images.githubusercontent.com/55979883/101307573-d1c8d280-3815-11eb-9a3f-e0934b90a521.png)
-<p align="justify"> below is the  AUC ROC for models we used</p>
+<p align="justify">The figutre below is the AUC ROC for models we used</p>
 ![Prediction Result](https://user-images.githubusercontent.com/55979883/101293924-0c187c80-37e2-11eb-83c1-59f26d6a1966.png)
 
 <h4>Step 5: Hybrid Algorithm</h4>
