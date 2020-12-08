@@ -11,17 +11,6 @@
 <h4>Step 1: Data Extraction:</h4>
 <p align="justify">Our dataset is from the Kaggle https://www.kaggle.com/sulianova/cardiovascular-disease-dataset (Ulianova, n.d.). it has 70,000 records of patients’ data with 11 features –both numerical and categorical.</p>
 
-<h4> Step 2: Data Pre-processing: </h4>
-<p align="justify"> Our data processing involved three steps namely:</p>
-
-<h5>i. Checking for missing or NaN values</h5>
-<p align="justify">As a first step in our data processing, we looked for Nan values of which we didn't find any. We had a dataset that was complete and numeric</p>
-
-<h5>ii. Checking if our dataset is balanced</h5>
-<p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
-  
-<h5>iii. Removing outliers</h5>
-<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>  
 
 
 
