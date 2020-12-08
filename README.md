@@ -3,6 +3,8 @@
 
 ![heartdiseasepic](https://user-images.githubusercontent.com/55979883/101299304-bd79db00-37ff-11eb-837f-2b42b7b4d399.jpeg)
 
+![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
+
 <p align="justify">Cardiovascular disease is the leading cause of death among people in the US. According to the National Vital Statistics, about 854,390 people died due to Cardiovascular Disease in 2019 only (CDC, 2019). Despite this high mortality rate, health care service in the US is expensive and so providing a means in which people could detect (easily and possibly early) if they have a Cardiovascular disease or not would help in early treatment, lesser medical expenses and would increase chances of survival. Our proposed Cardiovascular Disease Onset Prediction tool would be used by medical personnel to detect Cardiovascular disease easily and faster. The current system only allows qualified personnel to collate patients’ clinical information and make decision – which usually take a longer time – on whether a patient has been diagnosed with Cardiovascular disease or not.</p>
 <p align="justify"><p align="justify">We design a Cardiovascular Disease onset prediction​ tool that will help in predicting onset of Cardiovascular disease given a patients’ clinical information. 
 
@@ -62,7 +64,7 @@
 </table>
 <p align="justify">The figure below is a list of models we used and their accuracy values</p>
 
-![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
+
 
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
