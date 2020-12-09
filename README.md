@@ -27,7 +27,7 @@
 
 <p align="justify">For Diastolic Blood Pressure feature, we set our outliers values to those that were less than 50 or greater than 1032 of had over 1032 cases.</p>
 
-![Diastollic](https://user-images.githubusercontent.com/55979883/101304808-2288fd00-380f-11eb-9448-649991590ff4.png)
+![Diastollic](https://user-images.githubusercontent.com/55979883/101568587-d1a90e00-39a0-11eb-8a7c-8629b82ed449.jpeg)
 
 <p align="justify">For weight feature, we set our outliers values to those that were less than or equal to 30 of had over 7 cases</p>
 
