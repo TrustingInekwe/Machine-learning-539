@@ -14,8 +14,8 @@
 <h4> Step 2: Data Pre-processing: </h4>
 <p align="justify"> Our data processing involved three steps namely:</p>
 
-<h5>i. Checking for missing or NaN values</h5>
-<p align="justify">As a first step in our data processing, we looked for Nan values of which we didn't find any. We had a dataset that was complete and numeric</p>
+<h5>i. Checking for missing or NaN values and removal of unimportant features</h5>
+<p align="justify">As a first step in our data processing, we removed the id column because it didn't give us any information. We also looked for Nan values of which we didn't find any. We had a dataset that was complete and numeric</p>
 
 <h5>ii. Checking if our dataset is balanced</h5>
 <p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
@@ -38,16 +38,16 @@
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
 
 
-<h4>Step 4: Modelling using Machine Learning Algorithms</h4>
+<h4>Step 3: Modelling using Machine Learning Algorithms</h4>
 <p align="justify">We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
 
-<h4>Step 5: created a heat map to select features of importance</h4>
+<h4>Step 4: created a heat map to select features of importance</h4>
 <p align="justify">From the Heat map below, shows the features age, ap_hi, ap_lo and cholesterol as having correlation with our target feature which is cardio</p>
 
 ![Feature Correlation](https://user-images.githubusercontent.com/55979883/101560020-5ccdd800-3990-11eb-8538-2d0bc89db434.png)
 
 
-<h4>Step 6: Selecting important features</h4>
+<h4>Step 5: Selecting important features</h4>
 <p align="justify">We selected age, ap_hi, ap_lo and cholesterol as important features and created our models using those</p>
 
 <table style="width:100%">
@@ -79,7 +79,7 @@
 ![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
 
 
-<h4>Step 7: Hybrid Algorithm</h4>
+<h4>Step 6: Hybrid Algorithm</h4>
 <p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
 
 
