@@ -74,6 +74,8 @@
 
 ![model_performance2](https://user-images.githubusercontent.com/55979883/101528076-cd5b0180-395c-11eb-9b49-12a6cbb1fdee.png)
 
+<img width="1089" alt="ACCURACY SCORES" src="https://user-images.githubusercontent.com/55979883/101582673-06b95e80-39a9-11eb-8e65-6ea81a910577.png">
+
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
 ![AUC ROC ](https://user-images.githubusercontent.com/55979883/101567442-d076e180-399e-11eb-9cb8-d8ba9c623e41.jpeg)
