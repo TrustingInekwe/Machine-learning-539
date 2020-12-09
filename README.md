@@ -21,7 +21,7 @@
 <p align="justify">Secondly, we checked to see if our dataset was balanced. Our dataset had a Positive to Negative ratio of 34979 to 35021 indicating an almost balanced dataset. </p>
   
 <h5>iii. Removing outliers</h5>
-<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases.</p>
+<p align="justify"> Our dataset contained outliers for some of the features. For example, for the various blood pressure categories of Normal, Elevated and Hypertensive stages [1], we searched for values that didnt fall within the acceptable  Systolic (upper) and Diastolic (lower) ranges. For our Systolic Blood Pressure feature, we set our outliers values to those that were less than or equal to 80 or greater than 200 of which we had over 307 cases. (From left to right: raw data vs data after outlier removal)</p>
 
 ![systolic](https://user-images.githubusercontent.com/55979883/101568705-146ae600-39a1-11eb-8bd0-884cbcd64e17.jpeg)
 
@@ -33,7 +33,7 @@
 
 ![Weight](https://user-images.githubusercontent.com/55979883/101305205-22d5c800-3810-11eb-88b0-46836c651faa.png)
 
-<p align="justify">For height feature, we set our outliers values to those that were less than or equal to 100 of had over 29 cases.</p>
+<p align="justify">For height feature, we set our outliers values to those that were less than or equal to 100 of had over 29 cases. (From left to right: raw data vs data after outlier removal)</p>
 
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
 
