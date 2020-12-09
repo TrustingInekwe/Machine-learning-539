@@ -1,5 +1,5 @@
 <h1>Predicting the Onset of cardiovascular disease</h1>
-<h2>by Abdul, Chaokai, Winnie and Trusting</h2>
+<h2>by Chaokai Zhang, Abdulsalam Almadani, Winnie Mkandawire, Trusting Inekwe</h2>
 
 ![heartdiseasepic](https://user-images.githubusercontent.com/55979883/101299304-bd79db00-37ff-11eb-837f-2b42b7b4d399.jpeg)
 
