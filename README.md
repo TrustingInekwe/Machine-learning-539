@@ -41,6 +41,12 @@
 <h4>Step 4: Modelling using Machine Learning Algorithms</h4>
 <p align="justify">We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
 
+<h4>Step 5: created a heat map to select features of importance</h4>
+<p align="justify">From the Heat map below, shows the features age, ap_hi, ap_lo and cholesterol as having correlation with our target feature which is cardio</p>
+
+![Feature Correlation](https://user-images.githubusercontent.com/55979883/101560020-5ccdd800-3990-11eb-8538-2d0bc89db434.png)
+
+
 <h4>Step 5: Hybrid Algorithm</h4>
 <p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
 
