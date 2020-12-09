@@ -44,7 +44,7 @@
 <h4>Step 4: created a heat map to select features of importance</h4>
 <p align="justify">From the Heat map below, shows the features age, ap_hi, ap_lo and cholesterol as having correlation with our target feature which is cardio</p>
 
-![Feature Correlation](https://user-images.githubusercontent.com/55979883/101560020-5ccdd800-3990-11eb-8538-2d0bc89db434.png)
+![corr_ML](https://user-images.githubusercontent.com/55979883/101564433-2d6f9900-3999-11eb-9f5f-e26e338609c0.png)
 
 
 <h4>Step 5: Selecting important features</h4>
