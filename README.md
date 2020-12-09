@@ -37,13 +37,13 @@
 
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
 
-<h4>Step 3: created a heat map to find out features of importance</h4>
+<h4>Step 3: created a heat map to find the correlation of features</h4>
 <p align="justify">From the Heat map below, shows the features age, ap_hi, ap_lo and cholesterol as having correlation with our target feature which is cardio</p>
 
 ![corr_ML](https://user-images.githubusercontent.com/55979883/101564433-2d6f9900-3999-11eb-9f5f-e26e338609c0.png)
 
 <h4>Step 4: Selecting important features</h4>
-<p align="justify">We selected the first 5 important features; age(0), ap_hi(4), ap_lo(5) and cholesterol(6) as important features and created our models using these features</p>
+<p align="justify">We found out features of importance and selected the first 4 important features; age(0), ap_hi(4), ap_lo(5) and cholesterol(6) as important features because they had significant correlating values and we created our models using these four features</p>
 
 ![Feature Importance](https://user-images.githubusercontent.com/55979883/101569181-f9e53c80-39a1-11eb-9977-7d7b229f67c7.jpeg)
 
