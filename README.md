@@ -84,12 +84,12 @@
 
 
 <h4>Step 6: Hybrid Algorithm</h4>
-<p align="justify">Finally, we selected some of our best models namely; Support Vector Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
+<p align="justify">Finally, we selected some of our best models namely; Support Vector Classifier, Logistic Regression and Adaboost(excluding XGBoost because of high computational cost) to make a hybrid model so we can have a better accuracy. Our hybrid model uses a voting classifier to select the most common prediction as the best prediction. Our hybrid model gave us an accuracy of 71.93%.</p>
 
 ![funnel](https://user-images.githubusercontent.com/55979883/101667351-3d30c100-3a1d-11eb-9de7-decec63427e9.jpeg)
 
 <h4>Step 6: Conclusion</h4>
-<p align="justify">To conclude, we design a tool to predict the onset of cardiovascular disease. To create this tool, we tried out a couple of models to find out which model gave us the best prediction after training our models with our dataset. We selected three models namely; AdaBoost, SVC and Logistic Reggression and created a hybrid model to see if we can get even better predictions. From our hybrid model, we can see that there isn't much difference in accuracy values between the hybrid(ensemble) model and the some of our selected models.</p>
+<p align="justify">To conclude, we designed a tool to predict the onset of cardiovascular disease. To create this tool, we tried out a couple of models to find out which model gave us the best prediction after training our models with our dataset. We selected three models namely; AdaBoost, SVC and Logistic Reggression and created a hybrid model to see if we can get even better predictions. From our hybrid model, we can see that there isn't much difference in accuracy values between the hybrid model and the some of our selected models but we have more confidence in our hybrid model because we use a voting classifier of the three selected models.</p>
 
 
 <h3>Online Source</h3>
