@@ -43,7 +43,7 @@
 ![corr_ML](https://user-images.githubusercontent.com/55979883/101564433-2d6f9900-3999-11eb-9f5f-e26e338609c0.png)
 
 <h4>Step 4: Selecting important features</h4>
-<p align="justify">We selected the first 5 important features; age, ap_hi, ap_lo and cholesterol as important features and created our models using these features</p>
+<p align="justify">We selected the first 5 important features; age(0), ap_hi(4), ap_lo(5) and cholesterol(6) as important features and created our models using these features</p>
 
 ![Feature Importance](https://user-images.githubusercontent.com/55979883/101569181-f9e53c80-39a1-11eb-9977-7d7b229f67c7.jpeg)
 
