@@ -47,8 +47,8 @@
 ![Feature Correlation](https://user-images.githubusercontent.com/55979883/101560020-5ccdd800-3990-11eb-8538-2d0bc89db434.png)
 
 
-<h4>Step 5: Hybrid Algorithm</h4>
-<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
+<h4>Step 6: Selecting important features</h4>
+<p align="justify">We selected age, ap_hi, ap_lo and cholesterol as important features and created our models using those</p>
 
 <table style="width:100%">
   <caption>Model Algorithms implemented</caption>
@@ -77,6 +77,10 @@
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
 ![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
+
+
+<h4>Step 7: Hybrid Algorithm</h4>
+<p align="justify">Finally, we selected some of our best models namely; Support Vextor Classifier, Logistic Regression and Adaboost to make a hybrid model so we can have a better performance with respect to accuracy, confusion matrix, f1 score and ROC-AUC. This hybrid model will be used on the test data and for our widget.</p>
 
 
 <h3>Online Source</h3>
