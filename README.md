@@ -76,7 +76,7 @@
 
 <p align="justify">The figure below is the AUC ROC for models we used</p>
 
-![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png)
+<!--![prediction_result](https://user-images.githubusercontent.com/55979883/101528002-b9170480-395c-11eb-83cd-0fbd58bc048d.png) -->
 
 
 <h4>Step 6: Hybrid Algorithm</h4>
