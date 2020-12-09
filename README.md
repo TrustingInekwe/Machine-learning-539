@@ -37,18 +37,18 @@
 
 ![Height](https://user-images.githubusercontent.com/55979883/101305046-b22eab80-380f-11eb-81d7-b81f6ca0580e.png)
 
-
-<h4>Step 3: Modelling using Machine Learning Algorithms</h4>
-<p align="justify">We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
-
-<h4>Step 4: created a heat map to select features of importance</h4>
+<h4>Step 3: created a heat map to find out features of importance</h4>
 <p align="justify">From the Heat map below, shows the features age, ap_hi, ap_lo and cholesterol as having correlation with our target feature which is cardio</p>
 
 ![corr_ML](https://user-images.githubusercontent.com/55979883/101564433-2d6f9900-3999-11eb-9f5f-e26e338609c0.png)
 
-
-<h4>Step 5: Selecting important features</h4>
+<h4>Step 4: Selecting important features</h4>
 <p align="justify">We selected age, ap_hi, ap_lo and cholesterol as important features and created our models using those</p>
+
+![Feature Importance](https://user-images.githubusercontent.com/55979883/101569181-f9e53c80-39a1-11eb-9977-7d7b229f67c7.jpeg)
+
+<h4>Step 5: Modelling using Machine Learning Algorithms</h4>
+<p align="justify">We used Machine learning algorithms including Naive Bayes, XGBoost, KNN, Decision tree, random forest classifier, Support Vector Classifier, Perceptron as well as Convolutional Neural network for prediction. We used optimizer methods for the models by tuning them with different hyperparameter measures for performance improvement. We also apply 10-fold cross-validation to each of the models to ensure the models perform the best result.</p>
 
 <table style="width:100%">
   <caption>Model Algorithms implemented</caption>
